@@ -20,6 +20,9 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 # Copy app
 COPY . /var/www
 
+# Install PHP dependencies
+RUN composer install --no-interaction --prefer-dist --optimize-autoloader
+
 # Set permissions
 RUN chown -R www-data:www-data /var/www
 

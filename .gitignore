@@ -10,6 +10,13 @@
 .env.backup
 .env.production
 .phpactor.json
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.composer.lock
+=======
+>>>>>>> 2a0318b0 (readme file)
+>>>>>>> 362fa6dd (gitignore changes)
 .phpunit.result.cache
 Homestead.json
 Homestead.yaml
